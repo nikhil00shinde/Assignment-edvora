@@ -1,0 +1,24 @@
+.filter-container {
+	width: 228px;
+	height: 190px;
+	border-radius: 15px;
+	background-color: #131313;
+	position: fixed;
+	top: 21%;
+	right: 1%;
+	padding: 1rem 2rem;
+}
+
+.filter-name {
+	font-size: 1.5rem;
+	color: white;
+}
+select {
+	width: 168.45px;
+	height: 37.5px;
+	color: white;
+	font-size: 1rem;
+	background: #232323;
+	border-radius: 4.68775px;
+	margin: 10px 0;
+}

@@ -1,0 +1,43 @@
+.cab-section {
+	height: calc(100vh - 6rem);
+	background: #404040;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cab-option-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 90%;
+}
+
+.cab-option {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.cab-option p {
+	font-weight: 500;
+	color: white;
+}
+
+.nearest-ride,
+.upcoming-ride {
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}
+
+.cab-filter {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cab-filter > * {
+	padding: 0.5rem;
+}

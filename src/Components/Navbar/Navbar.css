@@ -1,0 +1,35 @@
+.navbar-container {
+	height: 6rem;
+	background: black;
+	font-size: 16px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 3rem;
+}
+.navbar-comp-name p {
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.navbar-profile {
+	display: flex;
+	width: auto;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar-profile img {
+	height: 3.7rem;
+	width: 3.7rem;
+	margin-left: 1rem;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-profile p {
+	font-size: 1.5rem;
+	margin-right: 1rem;
+	font-weight: 500;
+}
